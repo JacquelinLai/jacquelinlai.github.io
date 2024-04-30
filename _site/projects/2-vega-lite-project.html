@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 
-<!--
-  portfolYOU Jekyll theme by Youssef Raafat
-  Free for personal and commercial use under the MIT license
-  https://github.com/YoussefRaafatNasry/portfolYOU
--->
 
 <html lang="en" class="h-100">
 
@@ -25,8 +20,8 @@
   <meta property="og:description" content="This is a "showcase" project that uses vega-lite for interactive viz!">
   <meta property="og:image" content="assets/pngs/cars.png">
 
-  <title>Vega Lite Example Project</title>
-  <meta name="description" content="This is a "showcase" project that uses vega-lite for interactive viz!">
+  <title>Vega Lite Project</title>
+  <meta name="description" content="This is a project that uses vega-lite for interactive viz!">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -52,7 +47,7 @@
   <main class="flex-shrink-0 container mt-5">
     <nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/"><h5><b>IS445 Jekyll Template</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Jacquelin Lai</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
@@ -79,19 +74,22 @@
 
 <p>We can use a vegachart HTML tag like so:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;vegachart schema-url="/assets/json/cars.json" style="width: 100%"&gt;&lt;/vegachart&gt;
-</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
+  <code>&lt;
+  vegachart schema-url="/assets/json/my_chart.json" style="width: 100%"&gt;&lt;/vegachart&gt;
+  </code>
+</pre></div></div>
 
-<vegachart schema-url="/assets/json/cars.json" style="width: 100%"></vegachart>
+<vegachart schema-url="/assets/json/my_chart.json" style="width: 100%"></vegachart>
 
-<p>In theory, you can also use <a href="https://jekyllrb.com/docs/plugins/hooks/">Jekyll hooks</a> to do it, but I haven’t figured out a way that looks nice yet.</p>
+<!-- <p>In theory, you can also use <a href="https://jekyllrb.com/docs/plugins/hooks/">Jekyll hooks</a> to do it, but I haven’t figured out a way that looks nice yet.</p> -->
 
 <h2 id="search-the-data--methods">Search The Data &amp; Methods</h2>
 
 <p>Below is where we can put some links to both the data and the analysis code as buttons:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="left"&gt;
-&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json"&gt;
+&lt;a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/my_chart.json"&gt;
   The Data
 &lt;/a&gt;
 &lt;/div&gt;
@@ -106,7 +104,7 @@
 <!-- these are written in a combo of html and liquid -->
 
 <div class="left">
-<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/cars.json">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://github.com/vega/vega/blob/main/docs/data/my_chart.json">
   The Data
 </a>
 </div>
@@ -124,34 +122,32 @@
 
   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>A. P. Corgi</strong>
+    by <strong>Jacquelin Lai</strong>
   </small>
 
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:username@domain.com"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#db4437'"
-       onMouseOut="this.style.color='#6c757d'">
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:shanrou2@illinois.edu"
+      style="color: #6c757d"
+      onMouseOver="this.style.color='#db4437'"
+      onMouseOut="this.style.color='#6c757d'">
       <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/jnaiman"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#333333'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1"  href="https://www.github.com/JacquelinLai"
+      style="color: #6c757d"
+      onMouseOver="this.style.color='#333333'"
+      onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.twitter.com/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#1da1f2'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-twitter fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.youtube.com/your_channel_name"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#ff0000'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-youtube fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/jacquelinlai"
+      style="color: #6c757d"
+      onMouseOver="this.style.color='#1da1f2'"
+      onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin fa-1x"></i>
+    <!--</a><a class="social mx-1"  href="https://www.youtube.com/your_channel_name"-->
+    <!--   style="color: #6c757d"-->
+    <!--   onMouseOver="this.style.color='#ff0000'"-->
+    <!--   onMouseOut="this.style.color='#6c757d'">-->
+    <!--  <i class="fab fa-youtube fa-1x"></i>-->
     </a>
 
-</div><small id="attribution">
-    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
-  </small>
+</div>
 
 </footer>
 
