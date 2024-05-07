@@ -32,6 +32,7 @@ Overall, through these data cleaning and preprocessing steps, we have prepared a
 #### Description of Visualization: Graph 1: Stacked Barchart
 
 We first plotted the comprehensive gas emissions for the countries with the top 10 emissions around the world. This is in the form of a stacked bar chart in order to be able to see the distribution of the different types of gases.
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Graph_1.json" style="width: 100%"></vegachart>
 
 #### Description of Visualization: Graph 2: Barchart
@@ -63,7 +64,7 @@ Insights:
 
 To better visualize the geographic distribution of gas emissions, we have plotted this onto a world map. 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/Graph_3.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/Graph_4.json" style="width: 100%"></vegachart>
 
 Interactivity: 
 - Select the gas and the year from the dropdown
