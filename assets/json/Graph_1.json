@@ -1,0 +1,32 @@
+{
+    "x_labels": [
+        "CHN",
+        "USA",
+        "IND",
+        "RUS",
+        "JPN",
+        "SAU",
+        "DEU",
+        "KOR",
+        "IRN",
+        "BRA"
+    ],
+    "y_labels": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+    ],
+    "legend_labels": [
+        "ch4",
+        "co2",
+        "co2e_100yr",
+        "co2e_20yr",
+        "n2o"
+    ],
+    "data": {
+        "_nolegend_": 12047.177873
+    }
+}
