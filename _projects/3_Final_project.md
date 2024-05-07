@@ -85,5 +85,5 @@ This graph is the same as the previous graph but was implemented using plotly ra
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/JacquelinLai/jacquelinlai.github.io/blob/main/python_notebooks/Team_11_Final_Project.ipynb" %}
+{% include elements/button.html link="https://github.com/JacquelinLai/jacquelinlai.github.io/blob/main/python_notebooks/Team_11_Final_Project.ipynb"  text="The Analysis" %}
 </div>
