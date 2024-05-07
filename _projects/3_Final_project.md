@@ -29,17 +29,17 @@ Overall, through these data cleaning and preprocessing steps, we have prepared a
 
 # Part 3: Data Visualization
 
-#### Description of Visualization: Graph 1: Stacked Bar chart
+#### Description of Visualization: Graph 1: Stacked Barchart
 
 We first plotted the comprehensive gas emissions for the countries with the top 10 emissions around the world. This is in the form of a stacked bar chart in order to be able to see the distribution of the different types of gases.
 <vegachart schema-url="{{ site.baseurl }}/assets/json/Graph_1.json" style="width: 100%"></vegachart>
 
-#### Description of Visualization: Graph 2: Line chart
+#### Description of Visualization: Graph 2: Barchart
 
-To explore this concept further, we made an interactive line chart to select the gas type to focus on. This shows the gas emissions of the same top 10 countries. 
+To explore this concept further, we made an interactive bar chart to select the year to focus on. This shows the gas emissions of the same top 10 countries, separated by gas types, which are side by side. 
 
 Interactivity: 
-- Select the gas type from the dropdown
+- Select the year from the dropdown
 - Reference the key to identify the color-coded gas types
 
 Insights: 
@@ -62,6 +62,8 @@ Insights:
 #### Description of Visualization: Graph 4: World Map
 
 To better visualize the geographic distribution of gas emissions, we have plotted this onto a world map. 
+
+<vegachart schema-url="{{ site.baseurl }}/assets/json/Graph_3.json" style="width: 100%"></vegachart>
 
 Interactivity: 
 - Select the gas and the year from the dropdown
