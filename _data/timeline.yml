@@ -2,7 +2,7 @@
   location: Wet & Forget
   from: May 2024
   to: present
-  description: |
+  description: 
                • Create key performance indicators (KPIs) through market analysis, and develop data visualization report -interactive dashboards in Excel, Looker Studio, Power BI that enhance decision-making efficiency 
                • Implement A/B Testing in Google Optimize with Search Engine Optimization (SEO) and Tag Manager
                • Design a structured SQL database (SSMS & SQL Server) to optimize data storage, showcasing flexibility in adapting to complex data management needs and supporting informed business analysis
@@ -15,19 +15,19 @@
   location: University of Illinois at Urbana-Champaign
   from: Aug 2021
   to: May 2025
-  description: |
+  description: 
                • Minor in Computer Science
                • Conducted research in AI Modeling to Predict and Classify Fatigue Levels and Types
                • Won 1st place in Data Dive Competition hold by "[Data Science Illinois Club] (https://one.illinois.edu/illinoisdatascienceclub/home/)"
                • Part-time work at IT Partners of the Education Building
-               • Published paper, "[Text Sentiment Support Phrases Extraction based on RoBERTa (NLP Model)] (https://ieeexplore.ieee.org/document/9607135)""
+               • Published paper, "[Text Sentiment Support Phrases Extraction based on RoBERTa (NLP Model)] (https://ieeexplore.ieee.org/document/9607135)"
 
 - title: Business Analyst Intern
   location: AliPrice Technologies Co. Ltd.
   from: May 2021
   to: Aug 2021
-  description: |
+  description: 
                • Performed customer behavior data analysis from multiple e-commerce platforms and SQL Server Management Studio to identify procurement trends and patterns, resulting in a 20% increase in conversion rates for product listings
                • Wrote product blogs and articles about cross-border E-Commerce trade to perform search engines optimization
                • Assisted in the design and execution of A/B testing to evaluate the effectiveness of different features and digital
-                marketing strategies, leading to a 400k user growth
+                 marketing strategies, leading to a 400k user growth
