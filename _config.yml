@@ -35,7 +35,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Jacquelin Lai
-  image             : https://source.unsplash.com/300x300/?corgi&derpy
+  image             : /assets/pngs/profile.png
 #  behance           : your_username
 # dribbble          : your_username
   email             : shanrou2@illinois.edu
