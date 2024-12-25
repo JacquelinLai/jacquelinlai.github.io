@@ -1,9 +1,34 @@
-- name: Adobe Photoshop
-  percentage: 95
-  level: Expert
+- name: Data Visualization (Tableau, Power BI)
+  percentage: 85
+  level: Advanced
   color: info
 
-- name: Adobe Illustrator
+- name: Excel
   percentage: 90
   level: Expert
   color: success
+
+- name: Machine Learning
+  percentage: 70
+  level: Intermediate
+  color: warning
+
+- name: Data Cleaning & Preprocessing
+  percentage: 95
+  level: Expert
+  color: success
+
+- name: Statistical Analysis
+  percentage: 85
+  level: Advanced
+  color: info
+
+- name: Data Warehousing
+  percentage: 75
+  level: Intermediate
+  color: warning
+
+- name: Hadoop
+  percentage: 70
+  level: Intermediate
+  color: warning
